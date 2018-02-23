@@ -1,4 +1,7 @@
 spring:
+#设定静态文件路径，js,css等
+  mvc:
+    static-path-pattern: /**
   datasource:
     url: jdbc:mysql://localhost:3306/ssh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
     username: root

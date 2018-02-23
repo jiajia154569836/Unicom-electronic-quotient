@@ -22,8 +22,6 @@ public class UserServceimpl implements UserServce {
 
      public Boolean login(String jiajia, String s)
      {
-
-
           User user = userRepository.findByUsername(jiajia);
           System.out.println(jiajia);
           System.out.println(s);
@@ -34,7 +32,15 @@ public class UserServceimpl implements UserServce {
           return false;
      }
 
-
-
+     public Boolean register(String jiajia, String s)
+     {
+          User user = new User();
+          user.setUsername(jiajia);
+          user.setPassword(s);
+          userRepository.save(user);
+          System.out.println(jiajia);
+          System.out.println(s);
+          return true;
+     }
 
 }
