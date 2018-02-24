@@ -7,6 +7,10 @@ import lombok.RequiredArgsConstructor;
 import javax.persistence.*;
 
 
+
+/*
+* 在数据库的操作中将编码改为utf-8
+* */
 /*
 * 用户表
 * */

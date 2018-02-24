@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+
+    <title>列表展示</title>
+</head>
+
+<body>
+<table border="1">
+    <tr>
+
+        <th>状态变量：even</th>
+        <th>状态变量：odd</th>
+        <th>状态变量：first</th>
+        <th>状态变量：last</th>
+    </tr>
+    <tr  th:each="booklist : ${list}">
+        <th th:text="${booklist.id}">状态变量：even****</th>
+        <th th:text="${booklist.title}">状态变量：odd</th>
+        <th th:text="${booklist.price}">状态变量：first</th>
+        <th th:text="${booklist.unit}">状态变量：last</th>
+    </tr>
+</table>
+</body>
+</html>
