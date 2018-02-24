@@ -3,7 +3,7 @@ spring:
   mvc:
     static-path-pattern: /**
   thymeleaf:
-   cache: false
+    cache: false
   datasource:
     #type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://localhost:3306/ssh?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
