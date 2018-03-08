@@ -1,4 +1,15 @@
+com\jiajia\dto\GoodDto.class
+com\jiajia\service\impl\UserServceimpl.class
 com\jiajia\model\QGoodTypeBean.class
-com\jiajia\model\GoodTypeBean.class
-com\jiajia\model\GoodInfoBean.class
+com\jiajia\controller\UserController.class
 com\jiajia\model\QUser.class
+com\jiajia\model\User.class
+com\jiajia\model\QGoodInfoBean.class
+com\jiajia\controller\dsl\GoodController.class
+com\jiajia\service\UserServce.class
+com\jiajia\ServletInitializer.class
+com\jiajia\model\GoodTypeBean.class
+com\jiajia\shiro\controller\UserShiro.class
+com\jiajia\model\GoodInfoBean.class
+com\jiajia\Application.class
+com\jiajia\repository\UserRepository.class

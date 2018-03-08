@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.jiajia.config.CasConfig",
+      "name": "cas",
+      "type": "com.jiajia.config.CasConfig"
+    }
+  ],
+  "properties": []
+}

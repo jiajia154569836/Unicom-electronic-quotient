@@ -1,0 +1,68 @@
+spring:
+  application:
+    name: backend
+  jackson:
+    serialization: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/ssh?zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=UTF-8&characterSetResults=UTF-8&useUnicode=true&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 6
+      min-evictable-idle-time-millis: 100000
+      max-evictable-idle-time-millis: 100000
+      validation-query: select 1
+      test-while-idle: true
+      test-on-borrow: true
+      remove-abandoned: true
+      remove-abandoned-timeout-millis: 120000
+      time-between-eviction-runs-millis: 10000
+      filter:
+        stat:
+          db-type: mysql
+          log-slow-sql: true
+          slow-sql-millis: 2000
+        wall:
+          enabled: true
+          db-type: mysql
+          config:
+            delete-allow: true
+            drop-table-allow: false
+        slf4j:
+          statement-log-enabled: true
+          result-set-log-enabled: true
+          statement-executable-sql-log-enable: true
+          connection-log-enabled: true
+          enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  redis:
+    host: localhost
+    port: 6379
+  http:
+    encoding:
+      charset: UTF-8
+      force-response: true
+      force-request: true
+      enabled: true
+
+info:
+  app:
+    name: backend
+    version: 1.0.0
+server:
+  port: 8071
+  tomcat:
+    max-threads: 1000
+    uri-encoding: UTF-8
+debug: true
+
+#cas:
+#  casAddress: 133.195.235.84:18080 #CAS服务器地址
+#  frontAddress: 133.195.235.82:8090 #前台集群地址
+#  backAddress: 133.195.235.82:8081 #后台集群地址

@@ -20,6 +20,13 @@ spring:
       ddl-auto: update
       naming:
         strategy: org.hibernate.cfg.ImprovedNamingStrategy
+server:
+  port: 8072
+  tomcat:
+    max-threads: 1000
+    uri-encoding: UTF-8
+
+
 #logging:
   ## com.keveon: trace
    # com.mysql: warn
