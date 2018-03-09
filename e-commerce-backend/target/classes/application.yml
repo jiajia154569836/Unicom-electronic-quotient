@@ -61,7 +61,8 @@ server:
     max-threads: 1000
     uri-encoding: UTF-8
 debug: true
-
+book-operation:
+  opurl: http://localhost:8072
 #cas:
 #  casAddress: 133.195.235.84:18080 #CAS服务器地址
 #  frontAddress: 133.195.235.82:8090 #前台集群地址

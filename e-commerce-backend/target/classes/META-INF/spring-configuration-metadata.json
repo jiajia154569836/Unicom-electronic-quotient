@@ -2,9 +2,9 @@
   "hints": [],
   "groups": [
     {
-      "sourceType": "com.jiajia.config.CasConfig",
-      "name": "cas",
-      "type": "com.jiajia.config.CasConfig"
+      "sourceType": "com.jiajia.backend.controller.react.BookController",
+      "name": "book-operation",
+      "type": "com.jiajia.backend.controller.react.BookController"
     }
   ],
   "properties": []

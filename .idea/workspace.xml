@@ -2,68 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53629d24-7e5e-434a-8dc4-55fd6e164843" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bonc_bonc_commons_core_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bonc_bonc_jdbc_0_0_2_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bonc_bonc_security_base_1_0_7_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_bonc_bonc_sso_client_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc14_10_2_0_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io___commons_io_version_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2___swagger_version_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui___swagger_version_.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxrs_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_rs_client_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_client_cas_client_core_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/e-commerce-backend.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/BackendApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/Users.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/AuthConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/BackendConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilterChain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CosConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/OrderController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/utils/HttpUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Users.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserControllerReact.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_java_sizeof_0_0_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_2_jdk5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ma_glasnost_orika_orika_core_1_4_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/BookDto.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/BookController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/utils/BeanMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/react/BookControllerReact.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/dto/Book.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Book.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/BookRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/BookServce.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/impl/BookServceimpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io___commons_io_version_.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2___swagger_version_.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui___swagger_version_.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce.iml" afterPath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pom.xml" afterPath="$PROJECT_DIR$/ecommerce/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/application.yml" afterPath="$PROJECT_DIR$/ecommerce/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/controller/shiro/UserShiro.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/e-commerce-backend.iml" afterPath="$PROJECT_DIR$/e-commerce-backend/e-commerce-backend.iml" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/pom.xml" afterPath="$PROJECT_DIR$/e-commerce-backend/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/BackendApplication.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/BackendApplication.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/Users.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/Users.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/AuthConfig.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/AuthConfig.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/BackendConfig.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/BackendConfig.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasConfig.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasConfig.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilter.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasFilter.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilterChain.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasFilterChain.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CosConfig.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CosConfig.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/OrderController.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/OrderController.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/UserController.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/utils/HttpUtil.java" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/utils/HttpUtil.java" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/e-commerce-backend/target/classes/META-INF/spring-configuration-metadata.json" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/application.yml" afterPath="$PROJECT_DIR$/e-commerce-backend/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/BackendApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/bean/Users.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/AuthConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/BackendConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/CasFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/CasFilterChain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/CosConfig$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/config/CosConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/controller/react/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/e-commerce-backend/target/classes/com/jiajia/utils/HttpUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/GoodInfoBean.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/GoodInfoBean.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/GoodTypeBean.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/GoodTypeBean.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/User.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Users.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Users.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/Application.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/MainApplication.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/ServletInitializer.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/ServletInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/UserController.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/dsl/GoodController.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/dsl/GoodController.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserControllerReact.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/react/UserControllerReact.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/dto/GoodDto.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/dto/GoodDto.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/repository/UserRepository.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/UserRepository.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/UserServce.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/UserServce.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/impl/UserServceimpl.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/impl/UserServceimpl.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/shiro/controller/UserShiro.java" afterPath="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/shiro/controller/UserShiro.java" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/ServletInitializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/controller/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/controller/dsl/GoodController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/controller/react/UserControllerReact.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/dto/GoodDto.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/GoodInfoBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/GoodTypeBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/QGoodInfoBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/QGoodTypeBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/QUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/model/Users.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/repository/UserRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/service/UserServce.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/service/impl/UserServceimpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/classes/com/jiajia/shiro/controller/UserShiro.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/generated-sources/java/com/jiajia/model/QGoodInfoBean.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/generated-sources/java/com/jiajia/model/QGoodTypeBean.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/target/generated-sources/java/com/jiajia/model/QUser.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/ecommerce/target/" />
     <ignored path="$PROJECT_DIR$/e-commerce-backend/target/" />
@@ -88,58 +104,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/UserController.java">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1127#1136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserControllerReact.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserControllerReact.java">
+      <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1995#1996#0" expanded="true" />
-                <element signature="e#2030#2031#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/UserController.java">
+      <file leaf-file-name="MainApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1712#1713#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/Application.java">
+      <file leaf-file-name="BookControllerReact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/react/BookControllerReact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/User.java">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="107">
               <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
@@ -147,7 +168,7 @@
         </entry>
       </file>
       <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Users.java">
+        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Users.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -156,11 +177,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/dsl/GoodController.java">
+      <file leaf-file-name="BookDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/BookDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BackendApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/BackendApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,34 +199,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackendApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/BackendApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/e-commerce-backend/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/Users.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/OrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2337">
-              <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="200" column="34" lean-forward="false" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -210,6 +218,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>swagger</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -228,15 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/Application.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/service/UserServce.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/impl/UserServce.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/resources/import.sql" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/UserServce.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/impl/UserServceimpl.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/test/java/learn/erweima/CreateQrCode.java" />
-        <option value="$PROJECT_DIR$/ecommerce/src/test/java/learn/erweima/ReadQrCode.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/GoodInfoBean.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/User.java" />
@@ -259,16 +263,35 @@
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/OrderController.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserController.java" />
         <option value="$PROJECT_DIR$/ecommerce/pom.xml" />
-        <option value="$PROJECT_DIR$/e-commerce-backend/pom.xml" />
         <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/OrderController.java" />
         <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/BackendApplication.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasConfig.java" />
-        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/User.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Users.java" />
         <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/UserController.java" />
         <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserControllerReact.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/BookList.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/dto/Book.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/Book.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/BookServce.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Book.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/impl/BookServceimpl.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/BookControllerReact.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/BookController.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/utils/BeanMapper.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/utils/BeanMapper.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/Book.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/Application.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/MainApplication.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Book.java" />
+        <option value="$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/BookDto.java" />
+        <option value="$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/BookController.java" />
       </list>
     </option>
   </component>
@@ -289,6 +312,20 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="e-commerce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e-commerce-backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e-commerce-backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="e-commerce-backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -359,7 +396,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiajia" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
@@ -429,7 +466,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jiajia" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
@@ -438,7 +475,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
@@ -447,25 +484,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dsl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-new" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="all-new" type="462c0819:PsiDirectoryNode" />
-              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.jiajia.model" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="all-new" type="b2602c69:ProjectViewProjectNode" />
@@ -501,20 +520,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.jiajia.repository" />
-      <recent name="com.jiajia.service" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.jiajia.controller.react" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jiajia.model" />
-      <recent name="com.jiajia.controller.react" />
-      <recent name="com.jiajia" />
-      <recent name="com.jiajia.config" />
-      <recent name="com.jiajia.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\learn\all-workspace\all-new\e-commerce-backend\src\main\resources" />
@@ -522,6 +530,17 @@
       <recent name="D:\learn\all-workspace\all-new\ecommerce\src\main\java\com\jiajia\config" />
       <recent name="D:\learn\all-workspace\all-new\ecommerce\src\main\java" />
       <recent name="D:\learn\all-workspace\all-new\ecommerce\src\main\resources\shiro" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiajia.main.utils" />
+      <recent name="com.jiajia.model" />
+      <recent name="com.jiajia.repository" />
+      <recent name="com.jiajia.service.impl" />
+      <recent name="com.jiajia.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jiajia.repository" />
+      <recent name="com.jiajia.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -536,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.BackendApplication (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -628,6 +647,17 @@
       <module name="ecommerce" />
       <envs />
     </configuration>
+    <configuration name="BackendApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jiajia.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiajia.backend.BackendApplication" />
+      <module name="e-commerce-backend" />
+      <envs />
+    </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -637,6 +667,17 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiajia.BackendApplication" />
       <module name="e-commerce-backend" />
+      <envs />
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jiajia.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jiajia.main.MainApplication" />
+      <module name="ecommerce" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -672,17 +713,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="1" class="java.lang.String" itemvalue="Application.CreateQrCode" />
       <item index="2" class="java.lang.String" itemvalue="Application.ReadQrCode" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.BackendApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.BackendApplication (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.MainApplication" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.BackendApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ReadQrCode" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CreateQrCode" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.BackendApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.MainApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.BackendApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReadQrCode" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CreateQrCode" />
       </list>
     </recent_temporary>
   </component>
@@ -705,33 +750,44 @@
       <workItem from="1519957439963" duration="565000" />
       <workItem from="1520313561721" duration="24140000" />
       <workItem from="1520473082207" duration="756000" />
-      <workItem from="1520481200789" duration="1150000" />
+      <workItem from="1520481200789" duration="15617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77967000" />
+    <option name="totallyTimeSpent" value="92434000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708019" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5007924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09001513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29982963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -742,9 +798,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,130 +812,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/zxing/core/3.2.1/core-3.2.1.jar!/com/google/zxing/common/BitMatrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/learn/erweima/CreateQrCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/learn/erweima/ReadQrCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/dto/GoodDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/GoodInfoBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/GoodTypeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/UserServce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/service/impl/UserServceimpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/templates/booklist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/static/bootstrap/js/tests/unit/tab.js" />
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/static/bootstrap/bootstrap.js" />
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/templates/allbooklist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/templates/helloHtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/shiro/shiro.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/static/bootstrap/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/static/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -890,7 +820,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/shiro/controller/UserShiro.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/shiro/controller/UserShiro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
@@ -910,24 +840,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilter.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasFilterChain.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasFilterChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CosConfig.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CosConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -938,30 +869,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5124">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com.jiajia/dto/GoodDto.java" />
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/utils/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="153" column="15" lean-forward="false" selection-start-line="153" selection-start-column="15" selection-end-line="153" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -978,109 +886,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/BackendConfig.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/BackendConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/CasConfig.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/CasConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="19" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/config/AuthConfig.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1662#1663#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/dto/GoodDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.0.RELEASE/spring-data-commons-1.13.0.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/UserServce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/impl/UserServceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/GoodTypeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/GoodInfoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/react/UserControllerReact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1980#1981#0" expanded="false" />
+            <element signature="e#2015#2016#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/dsl/GoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/config/AuthConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="43" lean-forward="false" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        <state relative-caret-position="195">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/dsl/GoodController.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/resources/shiro/shiro.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/impl/BookServceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/service/BookServce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/User.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="551">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/e-commerce-backend.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/utils/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
+        <state relative-caret-position="285">
+          <caret line="138" column="25" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4143">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
           <caret line="123" column="18" lean-forward="false" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/Application.java">
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/utils/BeanMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/bean/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/controller/react/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/BackendApplication.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/dto/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/controller/react/BookControllerReact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com.jiajia.model/Users.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1088,15 +1131,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/controller/react/UserControllerReact.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="107">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/main/java/com/jiajia/main/repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/bean/BookDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/controller/react/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#1127#1136#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/src/main/java/com/jiajia/backend/BackendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-commerce-backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="200" column="34" lean-forward="false" selection-start-line="200" selection-start-column="29" selection-end-line="200" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
