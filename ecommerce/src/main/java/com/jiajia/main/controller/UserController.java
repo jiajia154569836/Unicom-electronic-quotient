@@ -29,7 +29,7 @@ public class UserController {
     }
 
     @GetMapping("/login")
-    public void login( User user,HttpServletResponse response) throws IOException {
+    public void login(User user, HttpServletResponse response) throws IOException {
         boolean flag=userServce.login(user.getUsername(),user.getPassword());
         System.out.println(user.getUsername());
         System.out.println(user.getPassword());

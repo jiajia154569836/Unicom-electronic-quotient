@@ -1,7 +1,7 @@
 package com.jiajia.main.controller.react;
 
-import com.jiajia.main.service.UserServce;
 import com.jiajia.main.model.Users;
+import com.jiajia.main.service.UserServce;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -20,11 +20,37 @@ spring:
       ddl-auto: update
       naming:
         strategy: org.hibernate.cfg.ImprovedNamingStrategy
+  redis:
+    host: 172.16.13.217
+    port: 6379
+  kafka:
+    bootstrap-servers: 133.195.235.82:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      acks: 1
+    properties:
+      request.timeout.ms: 200000 # 消息发送的最长等待时间.需大于session.timeout.ms这个时间
+      session.timeout.ms: 120000 # 在session.timeout.ms这个时间内处理完
+    listener:
+      concurrency: 10
+      poll-timeout: 1000
+      ack-mode: batch
+    consumer:
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      enable-auto-commit: true
+      group-id: order-broadband
+      auto-commit-interval: 5000
+      fetch-max-wait: 120000
+      max-poll-records: 10
+#    group: cwenao-group
 server:
   port: 8072
   tomcat:
     max-threads: 1000
     uri-encoding: UTF-8
+
 
 
 #logging:

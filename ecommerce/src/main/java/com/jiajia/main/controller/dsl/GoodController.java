@@ -1,9 +1,9 @@
 package com.jiajia.main.controller.dsl;
 
 import com.jiajia.main.dto.GoodDto;
+import com.jiajia.main.model.GoodInfoBean;
 import com.jiajia.main.model.QGoodInfoBean;
 import com.jiajia.main.model.QGoodTypeBean;
-import com.jiajia.main.model.GoodInfoBean;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 

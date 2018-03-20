@@ -15,7 +15,7 @@ import com.querydsl.core.types.Path;
 @Generated("com.querydsl.codegen.EntitySerializer")
 public class QGoodInfoBean extends EntityPathBase<GoodInfoBean> {
 
-    private static final long serialVersionUID = -445751839L;
+    private static final long serialVersionUID = 1971110228L;
 
     public static final QGoodInfoBean goodInfoBean = new QGoodInfoBean("goodInfoBean");
 
