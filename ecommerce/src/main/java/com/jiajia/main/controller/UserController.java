@@ -2,7 +2,10 @@ package com.jiajia.main.controller;
 
 import com.jiajia.main.model.User;
 import com.jiajia.main.service.UserServce;
+import com.jiajia.main.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,9 +19,14 @@ public class UserController {
 
     private final UserServce userServce;
 
+
+
+
+
     @Autowired
     public UserController(UserServce userServce) {
         this.userServce = userServce;
+
     }
 
     @RequestMapping("/helloHtml")
@@ -53,6 +61,8 @@ public class UserController {
             response.sendRedirect("/user/html");
         }
     }
+
+
 
 
 

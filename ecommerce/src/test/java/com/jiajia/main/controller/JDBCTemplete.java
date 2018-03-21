@@ -21,13 +21,14 @@ import java.util.Map;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = MainApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+
 public class JDBCTemplete {
 
     @Autowired
     JdbcTemplate jdbcTemplate;
 
     @Autowired
-    private RestTemplate restTemplate;
+    RestTemplate restTemplate;
 
     @Test
     @Transactional
@@ -47,10 +48,11 @@ public class JDBCTemplete {
         List list = JSON.parseObject(toString().valueOf(data), List.class);
         Map map = (Map) list.get(0);
         String mobile=map.get("mobile").toString();
-        String channelNo=map.get("channelNo").toString();
-        System.out.println("----------------------------------"+mobile+channelNo);
+        //String channelNo=map.get("channelNo").toString();
+        System.out.println("----------------------------------"+mobile);
 
     }
+
 
     @Test
     public void jdbcTemplateTest()
@@ -91,7 +93,4 @@ public class JDBCTemplete {
         String wo_account_id = org.apache.commons.collections4.MapUtils.getString(resultMap, "wo_account_id");
         System.out.println("msg="+msg+"code="+code+"wo_account_id="+wo_account_id);
     }
-
-
-
 }

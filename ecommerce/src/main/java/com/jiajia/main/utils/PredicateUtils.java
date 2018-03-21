@@ -26,7 +26,6 @@ public class PredicateUtils {
         } else {
             Predicate[] ps = new Predicate[predicates.length - 1];
             ps[0] = merge(cb, predicates[0], predicates[1]);
-
             for (int i = 0; i < ps.length - 1; i++) {
                 ps[i + 1] = predicates[i + 2];
             }

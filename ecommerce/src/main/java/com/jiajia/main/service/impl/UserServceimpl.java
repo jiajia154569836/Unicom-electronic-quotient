@@ -24,7 +24,6 @@ public class UserServceimpl implements UserServce {
         this.userRepository = userRepository;
     }
 
-
     public Boolean login(String jiajia, String s) {
         User user = userRepository.findByUsername(jiajia);
         System.out.println(jiajia);
@@ -44,26 +43,5 @@ public class UserServceimpl implements UserServce {
         System.out.println(s);
         return true;
     }
-/*
-    @Transactional(readOnly = true, rollbackFor = Exception.class)
-    public Page<User> find(String a_id, String a_password, String a_username, Pageable pageable) {
-        Page<User> page = userRepository.findAll((root, query, cb) -> {
-            Predicate p1 = null;
-            Predicate p2 = null;
-            Predicate p3 = null;
-            //参数判断
-            if (StringUtils.isNotBlank(a_id)) {
-                p1 = cb.like(root.get("id"), "%" + a_id + "%");
-            }
-            if (StringUtils.isNotBlank(a_password)) {
-                p2 = cb.like(root.get("password"), "%" + a_password + "%");
-            }
-            if (StringUtils.isNotBlank(a_username)) {
-                p3 = cb.like(root.get("username"), "%" + a_username + "%");
-            }
-            return PredicateUtils.merge(cb, p1, p2, p3);
-        }, pageable);
-        return new PageImpl(page.getContent(), pageable, page.getTotalElements());
-    }
-*/
+
 }

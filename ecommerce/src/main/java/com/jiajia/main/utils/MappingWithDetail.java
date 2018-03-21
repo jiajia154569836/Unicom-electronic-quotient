@@ -1,6 +1,7 @@
 package com.jiajia.main.utils;
 
 import com.jiajia.main.model.Order;
+import org.springframework.stereotype.Service;
 
 public class MappingWithDetail {
 

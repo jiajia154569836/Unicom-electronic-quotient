@@ -8,6 +8,5 @@ public interface UserServce {
      Boolean login(String jiajia, String s);
 
      Boolean register(String jiajia, String s);
-
-     //Page<User> find(String a_id, String a_password, String a_username, Pageable pageable);
 }
+
