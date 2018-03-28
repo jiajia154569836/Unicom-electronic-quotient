@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true">
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+        <!--<fileNamePattern>/data/jlzt/app/qrcode/v2/qclogs/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+            <fileNamePattern>/home/QRcode/qclogs/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>90</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>GBK</charset>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} [WS] [%X{HOST}] [%X{requestId}] [%thread] %-5level %logger{36}.%M-%L - %msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} [WS] [%X{HOST}] [%X{requestId}] [%thread] %-5level %logger{36}.%M-%L - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <logger name="com.bonc" level="#logback.loglevel#" />
+    <logger name="org.hibernate" level="WARN"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.springframework.data" level="WARN"/>
+    <logger name="org.springframework.web" level="WARN"/>
+    <logger name="org.springframework.cache" level="WARN"/>
+    <logger name="org.mongodb.driver" level="WARN"/>
+    <logger name="com.zaxxer.hikari" level="WARN"/>
+
+    <root level="#logback.loglevel#">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

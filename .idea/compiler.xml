@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="e-commerce-backend" />
+        <module name="e-commerce-flowable" />
         <module name="ecommerce" />
+        <module name="ecommerce-flow" />
+        <module name="order-flow" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="e-commerce-backend" target="1.8" />
       <module name="ecommerce" target="1.8" />
+      <module name="order-flow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

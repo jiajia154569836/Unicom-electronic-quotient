@@ -1,12 +1,18 @@
 package com.jiajia.main.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.jiajia.main.MainApplication;
 import com.jiajia.main.model.Order;
+import com.jiajia.main.model.Qq;
+import com.jiajia.main.repository.QRepository;
 import com.jiajia.main.utils.HttpUtil;
 import org.apache.commons.collections.MapUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +21,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,11 +31,18 @@ import java.util.Map;
 
 public class JDBCTemplete {
 
+
+    private static final Logger logger = LoggerFactory.getLogger(JDBCTemplete.class);
     @Autowired
     JdbcTemplate jdbcTemplate;
 
     @Autowired
     RestTemplate restTemplate;
+
+    @Autowired
+    QRepository qRepository;
+
+
 
     @Test
     @Transactional
@@ -92,5 +106,80 @@ public class JDBCTemplete {
         String code = org.apache.commons.collections4.MapUtils.getString(resultMap, "code");
         String wo_account_id = org.apache.commons.collections4.MapUtils.getString(resultMap, "wo_account_id");
         System.out.println("msg="+msg+"code="+code+"wo_account_id="+wo_account_id);
+    }
+
+    @Test
+    public void tencentToBaidu(/*double longitude, double latitude*/) {
+        double longitude = 35;
+        double latitude =35;
+        String address ="http://api.map.baidu.com/geoconv/v1/?from=3&to=5&ak=pXph9gPv3vjW40NZXG9AqzsW&coords=longitude,latitude";
+        String url = address.replace("longitude", longitude + "").replace("latitude", latitude + "");
+        String result = HttpUtil.httpGet(url);
+        System.out.println(result.toString());
+        /*Map<String, String> map = httpClientUtil.doGet(url);
+        System.out.println(map.toString());
+        String content = map.get("content");
+        MapConvertResultDto resultDto = JSONObject.parseObject(content, MapConvertResultDto.class);
+        MapConvertResultDto dto = JSONObject.parseObject(resultDto.getResult().get(0).toString(), MapConvertResultDto.class);
+        String result = dto.getX() + "," + dto.getY();
+        System.out.println(result);*/
+        //return result;
+    }
+
+    @Test
+    public void testQuery() throws Exception {
+
+        //userQueryRepository.deleteAB(1,1);
+       // qRepository.updateState(1,3);
+        List<Qq> list = new ArrayList<Qq>();
+        list = qRepository.findAllQ();
+       // Qq qq = userQueryRepository.findByA(2);
+        System.out.println(list.toString());
+        //System.out.println(qq.toString());
+
+    }
+
+    /***
+     * 百度地图坐标转GPS坐标
+     * @param baiduLon  百度地图经度
+     * @param baiduLat  百度地图纬度
+     * 注释:百度坐标和GPS坐标转换在很近的距离时偏差非常接近。
+    假设你有百度坐标：x1=116.397428，y1=39.90923
+    把这个坐标当成GPS坐标，通过接口获得他的百度坐标：x2=116.41004950566，y2=39.916979519873
+    通过计算就可以得到GPS的坐标：
+    x = 2*x1-x2，y = 2*y1-y2
+    x=116.38480649434001
+    y=39.901480480127
+     * @return
+     * @throws
+     */
+    @Test
+    public void testBaiduToGis(/*double baiduLon, double baiduLat*/)  {
+        double baiduLon=116.397428;
+        double baiduLat=39.90923;
+        String bdUrl = "http://api.map.baidu.com/geoconv/v1/?from=1&to=5&ak=5FVsSwr28sepnKMtdBX7wgQvHUNgBd5f&coords="+baiduLon+","+baiduLat;
+        JSONObject resp = JSON.parseObject(HttpUtil.httpGet(bdUrl));
+        logger.info("百度坐标转换返回结果 : {}", resp.toJSONString());
+
+        if(0 == resp.getInteger("status"))
+        {
+            //成功
+            JSONArray res = resp.getJSONArray("result");
+            JSONObject jsonObject = res.getJSONObject(0);
+
+            double x2 = jsonObject.getDouble("x");
+            double y2 = jsonObject.getDouble("y");
+
+            double gpsLon = (2*baiduLon - x2);
+            double gpsLat = (2*baiduLat - y2);
+            logger.info("百度转GPS坐标后的结果 : {}, {}", gpsLon, gpsLat);
+
+           // return new LngLat(gpsLon, gpsLat);
+        }
+        else
+        {
+            logger.error("百度坐标转换失败, status : {}", resp.getInteger("status"));
+            //return null;
+        }
     }
 }

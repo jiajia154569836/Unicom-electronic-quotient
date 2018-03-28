@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/e-commerce-flowable" />
+    <file type="web" url="file://$PROJECT_DIR$/ecommerce-flow" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ecommerce/pom.xml" />
         <option value="$PROJECT_DIR$/e-commerce-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/e-commerce-flowable/pom.xml" />
+        <option value="$PROJECT_DIR$/ecommerce-flow/pom.xml" />
       </list>
     </option>
   </component>
