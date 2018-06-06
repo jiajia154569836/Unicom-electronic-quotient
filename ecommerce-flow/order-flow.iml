@@ -154,6 +154,7 @@
     <orderEntry type="library" name="Maven: org.flowable:flowable-idm-spring:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.flowable:flowable-spring-common:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.flowable:flowable-spring-boot-starter-actuator:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.flowable:flowable-image-generator:6.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.flowable:flowable-bpmn-model:6.2.1" level="project" />
